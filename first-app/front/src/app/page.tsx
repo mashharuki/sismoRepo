@@ -42,9 +42,10 @@ import {
   SismoConnectConfig,
 } from "@sismo-core/sismo-connect-react";
 import { AUTHS, CLAIMS, CONFIG } from "@/app/sismo-connect-config";
+import { transactions } from "../../../broadcast/Airdrop.s.sol/80001/run-latest.json";
 
 /* ********************  Defines the chain to use *************************** */
-const CHAIN = mumbaiFork;
+const CHAIN = polygonMumbai;
 
 /**
  * Home Component

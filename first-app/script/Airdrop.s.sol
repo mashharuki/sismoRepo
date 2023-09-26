@@ -10,7 +10,8 @@ contract DeployAirdrop is Script {
     console.log("Deploying Airdrop contract...");
 
     vm.startBroadcast();
-    new Airdrop("my Airdrop", "AIR");
+    Airdrop airdrop = new Airdrop("My airdrop contract", "AIR");
+    console.log("Airdrop Contract deployed at", address(airdrop));
     vm.stopBroadcast();
   }
 }

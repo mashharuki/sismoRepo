@@ -40,6 +40,19 @@ You will need 2 terminals:
       * Each time your update your Airdrop.sol the contract is automatically redeployed
 ```
 
+### polygon mumbaiにデプロイした時の記録
+
+```bash
+##
+Waiting for receipts.
+⠉ [00:00:25] [####################################################################################################################] 1/1 receipts (0.0s)
+##### mumbai
+✅  [Success]Hash: 0x9687658e340d4942ce319776c2a0ac78a7d976835ff0e7d9477556bfb93063da
+Contract Address: 0x50d18f58AAD39912a410c568558929EC93369Ab3
+Block: 40539552
+Paid: 0.132128034914308996 ETH (4809086 gas * 27.474666686 gwei)
+```
+
 ### 参考文献
 1. [Sismoプロトコルの概要｜](https://hashhub-research.com/articles/2022-03-15-about-sismo)
 2. [Sismo builders Docs](https://build.sismo.io/)
@@ -50,3 +63,4 @@ You will need 2 terminals:
 7. [Sismo App Store Resources](https://app-store-resources.sismo.io/)
 8. [【foundry】AnvilとCastの使い方＆Dappsと連携してのテスト](https://eggdragons.com/foundry-anvil-cast/)
 9. [tenderly](https://tenderly.co/public/polygon-mumbai)
+10. [RPCエンドポイントサービス](https://www.ankr.com/rpc/polygon/polygon_mumbai/)
